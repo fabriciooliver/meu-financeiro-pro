@@ -1,0 +1,24 @@
+MEU FINANCEIRO PRO — PWA DARK PREMIUM
+
+PUBLICAR GRATUITAMENTE NO GITHUB PAGES
+1. Crie um repositório NOVO no GitHub, por exemplo: meu-financeiro-pro.
+2. Envie o CONTEÚDO desta pasta para a raiz do repositório (index.html, app.js, style.css, sw.js, manifest.webmanifest, icon.svg).
+3. Vá em Settings > Pages > Build and deployment > Deploy from a branch > main / (root) > Save.
+4. Aguarde a publicação e acesse https://SEU-USUARIO.github.io/meu-financeiro-pro/.
+5. No iPhone: Safari > Compartilhar > Adicionar à Tela de Início.
+
+FUNCIONALIDADES
+- Receitas/despesas pagas ou pendentes; saldo inicial editável
+- Contas a pagar, vencimentos e repetição mensal (3/6/12 meses)
+- Cartões e compras parceladas, com parcelas geradas como contas pendentes
+- Metas de economia e orçamentos mensais por categoria
+- Relatórios, calendário, CSV mensal, backup/restauração JSON
+- Layout responsivo Dark Premium, cache offline após primeira visita
+
+ATENÇÃO
+Os dados são guardados APENAS no navegador/dispositivo (localStorage). Não há sincronização automática entre computador e iPhone. Faça backup JSON com frequência e restaure no outro dispositivo quando necessário. A restauração SUBSTITUI os dados existentes.
+O aplicativo NÃO se conecta a contas bancárias e NÃO envia dados pessoais para o GitHub.
+Compras no cartão são despesas pendentes até marcadas como pagas; o limite do cartão é informativo, não bloqueia compras.
+Para lançamentos recorrentes, o aplicativo gera parcelas futuras no momento do cadastro; não cria novas contas depois do período escolhido.
+
+V2: Aba Planejamento com projeção dos 12 meses a partir do mês selecionado, receitas/despesas previstas versus realizadas e saldo projetado. Lançamentos futuros ficam pendentes por padrão. Mesma chave localStorage da V1; backup JSON compatível.
