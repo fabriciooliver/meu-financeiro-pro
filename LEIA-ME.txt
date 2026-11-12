@@ -22,3 +22,5 @@ Compras no cartão são despesas pendentes até marcadas como pagas; o limite do
 Para lançamentos recorrentes, o aplicativo gera parcelas futuras no momento do cadastro; não cria novas contas depois do período escolhido.
 
 V2: Aba Planejamento com projeção dos 12 meses a partir do mês selecionado, receitas/despesas previstas versus realizadas e saldo projetado. Lançamentos futuros ficam pendentes por padrão. Mesma chave localStorage da V1; backup JSON compatível.
+
+V3: Corrige o cadastro de lançamentos futuros. Após salvar, navega para o mês do vencimento e mostra o registro. Atualiza o cache do PWA. Mantém a chave de armazenamento V1/V2.
